@@ -1,18 +1,15 @@
+<!DOCTYPE html>
 <meta name=”viewport” content=”width=device-width, initial-scale=1.0"> 
 <link rel=”stylesheet” href=”css/bootstrap.css”>
-<!DOCTYPE html>
+
 <html>
   <link rel="stylesheet" href="main-style.css" />
   <title>Darwin Pet: Where animal lives matter</title>
   <h1>Welcome to Darwin Pet</h1>
   
-  <div
-    class="animal"
-    img
-    src="animal.jpg"
-    alt="all animal"
-  ></div>
+  <img class="animal" src="animal landscape.jpg" alt="all animal" style="width: fit-content; height: 500px; float: center;">
 
+  <!-- add navigation --> 
         <nav class=”navbar fixed-top navbar-expand-md navbar-light bg-light”>
         <div class=”container”>
         <a class=”navbar-brand” href=”#”>Adopt an animal</a>
@@ -45,4 +42,21 @@
         </div>
         </div>
         </nav>
+
+<!-- Menu Area -->
+             <div class="main-menu-area">
+                <nav class="navbar navbar-expand-lg align-items-start">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pet-navbar" 
+                    aria-controls="pet-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="ti-menu"></i></span></button>
+                         <div class="collapse navbar-collapse align-items-start collapse" id="pet-navbar">
+                            <ul class="navbar-nav animated" id="nav">
+                                <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"> Register to adopt an animal today</a></li>
+                                 <li class="nav-item"><a class="nav-link" href="#"> Post your photo of animal </a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                </nav>
+            </div>
 </html>
