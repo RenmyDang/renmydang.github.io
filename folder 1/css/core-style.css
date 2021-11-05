@@ -1,36 +1,4 @@
-/* [Master Stylesheet] */
-
-/* ------------- Index of Stylesheet -------------
-:: 1.0 Import Web Fonts
-:: 2.0 Import All CSS
-:: 3.0 Common/Base CSS
-:: 4.0 Wrapper CSS
-:: 5.0 Header Area CSS
-:: 6.0 Side Menu Area CSS
-:: 7.0 Top Discount CSS
-:: 8.0 Welcome Area CSS
-:: 9.0 Quickview Modal Area CSS
-:: 10.0 Top Catagory Area CSS
-:: 11.0 New Arrivals Area Start
-:: 12.0 Offer Area CSS
-:: 13.0 Testimonials CSS
-:: 14.0 Footer Area CSS
-:: 15.0 Breadcumb Area CSS
-:: 16.0 Product Sidebar Area CSS
-:: 17.0 Product Details Area CSS
-:: 18.0 Cart Page CSS
-:: 19.0 Checkout Area CSS
------------------------------------------------- */
-
-/* --------------------
-:: 1.0 Import Web Fonts
--------------------- */
-
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
-
-/* ------------------
-:: 2.0 Import All CSS
------------------- */
 
 @import "../css/bootstrap.min.css";
 @import "../css/owl.carousel.css";
@@ -39,10 +7,6 @@
 @import "../css/magnific-popup.css";
 @import "../css/animate.css";
 @import "../css/jquery-ui.min.css";
-
-/* -------------------
-:: 3.0 Common/Base CSS
-------------------- */
 
 * {
   margin: 0;
@@ -53,6 +17,9 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   overflow-x: hidden;
+}
+.top-logo {
+  background-image: url(../img/core-img/animal\ landscape.jpg);
 }
 
 h1,
@@ -338,7 +305,7 @@ img {
 }
 
 /* -------------------
-:: 4.0 Wrapper CSS
+Wrapper CSS
 ------------------- */
 
 #wrapper {
@@ -371,7 +338,7 @@ img {
 }
 
 /* ------------------------
-:: 5.0 Header Area CSS
+Header Area CSS
 ------------------------ */
 
 .top_header_area {
@@ -587,7 +554,7 @@ img {
 }
 
 /* -------------------
-:: 6.0 Side Menu Area CSS
+Side Menu Area CSS
 ------------------- */
 
 .catagories-side-menu {
@@ -737,7 +704,7 @@ img {
 }
 
 /* -------------------
-:: 7.0 Top Discount CSS
+Top Discount CSS
 ------------------- */
 
 .slogan-banner-area .slogan-banner-area {
@@ -766,7 +733,6 @@ img {
   margin-bottom: 15px;
 }
 
-.slogan-banner-area .slogan-banner-area h6,
 .slogan-banner-area.slogan-banner-area a {
   font-size: 12px;
   color: grey;
@@ -775,7 +741,7 @@ img {
 }
 
 /* ---------------------
-:: 8.0 Welcome Area CSS
+Welcome Area CSS
 --------------------- */
 
 .single_slide {
@@ -836,7 +802,7 @@ img {
 }
 
 /* -----------------------------
-:: 9.0 Quickview Modal Area CSS
+Quickview Modal Area CSS
 ----------------------------- */
 
 #quickview button.close {
@@ -1019,7 +985,7 @@ img {
 }
 
 /* --------------------------
-:: 10.0 Top Catagory Area CSS
+ Top Catagory Area CSS
 -------------------------- */
 
 .single_catagory_area {
@@ -1063,7 +1029,7 @@ img {
 }
 
 /* ----------------------------
-:: 11.0 New Arrivals Area Start
+ New Arrivals Area Start
 ---------------------------- */
 
 .portfolio-menu > .btn {
@@ -1176,7 +1142,7 @@ img {
 }
 
 /* -------------------
-:: 12.0 Offer Area CSS
+ Offer Area CSS
 ------------------- */
 
 .offer_area {
@@ -1246,7 +1212,7 @@ img {
 }
 
 /* -------------------
-:: 13.0 Testimonials CSS
+ Testimonials CSS
 ------------------- */
 
 .single-testimonial-area .quote {
@@ -1319,10 +1285,6 @@ img {
   background-color: #ff084e;
   border-color: #ff084e;
 }
-
-/* ----------------------
-:: 14.0 Footer Area CSS
----------------------- */
 
 .footer_area {
   background-color: #fff;
@@ -1415,10 +1377,6 @@ img {
   display: block;
 }
 
-/* ------------------------
-:: 15.0 Breadcumb Area CSS
------------------------- */
-
 .breadcumb_area {
   padding-top: 100px;
   padding-bottom: 40px;
@@ -1440,10 +1398,6 @@ img {
   font-size: 12px;
   margin-top: 25px;
 }
-
-/* ------------------------------
-:: 16.0 Product Sidebar Area CSS
------------------------------- */
 
 .widget {
   border-bottom: 2px solid #ebebeb;
@@ -1828,10 +1782,6 @@ img {
   border: 1px solid #ebebeb;
 }
 
-/* -------------------
-:: 18.0 Cart Page CSS
-------------------- */
-
 .cart-table .table {
   position: relative;
   z-index: 9;
@@ -2030,10 +1980,6 @@ img {
   color: #fff;
   font-weight: 700;
 }
-
-/* -----------------------
-:: 19.0 Checkout Area CSS
------------------------ */
 
 .checkout_details_area form label {
   font-size: 12px;
